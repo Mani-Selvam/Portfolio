@@ -1544,37 +1544,7 @@ svg {
 @media screen and (min-width: 320px) and (max-width: 375px) {
 
 
-  header {
-    width: 150%;
-  }
 
-  .hero {
-    width: 150%;
-  }
-
-  .about-section {
-    width: 150%;
-  }
-
-  .projects-section {
-    width: 150%;
-  }
-
-  .what-i-do {
-    width: 150%;
-  }
-
-  .services-section {
-    width: 150%;
-  }
-
-  .contact-section {
-    width: 150%;
-  }
-
-  .footer {
-    width: 150%;
-  }
 
 
 
@@ -1930,36 +1900,7 @@ svg {
 @media screen and (min-width: 0px) and (max-width: 320px) {
 
 
-  header {
-    width: 180%;
-  }
-
-  .hero {
-    width: 200%;
-  }
-
-  .about-section {
-    width: 200%;
-  }
-
-  .projects-section {
-    width: 200%;
-  }
-
-
-
-  .services-section {
-    width: 200%;
-  }
-
-  .contact-section {
-    width: 200%;
-  }
-
-  .footer {
-    width: 200%;
-  }
-
+  
 
 
   svg {
