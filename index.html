@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mani Bro - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="language">
+                <select class="language-selector">
+                    <option value="English" id="English">English</option>
+                    <option value="Tamil" id="Tamil">Tamil</option>
+                    <option value="Hindi" id="Hindi">Hindi</option>
+                </select>
+            </div>
+
+            <button id="nav-toggle" class="hamburger">&#9776;</button>
+            <div class="logo" id="logo"><img src="Assats/Ellipse 6.png" alt="" srcset=""> Dossier</div>
+            <div class="svg-div">
+                <svg id="darkmode" width="50" height="50" viewBox="0 0 317 308" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="sun"
+                        d="M317 154C317 239.052 246.037 308 158.5 308C70.9629 308 0 239.052 0 154C0 68.9482 70.9629 0 158.5 0C246.037 0 317 68.9482 317 154Z"
+                        fill="#D82323" />
+                </svg>
+            </div>
+        </nav>
+
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <div class="language">
+                <select class="language-selector-tab">
+                    <option value="English" id="English">English</option>
+                    <option value="Tamil" id="Tamil">Tamil</option>
+                    <option value="Hindi" id="Hindi">Hindi</option>
+                </select>
+            </div>
+        </ul>
+    </header>
+
+    <section class="hero section-container" id="Home">
+        <p class="tagline sec-box" id="tagline">Building in public, learning in real-time</p>
+        <div class="settings ">
+            <img src="Assats/large gear in 3d volume.png" class="sec-box" alt="" srcset="">
+        </div>
+        <h1 id="MyName" class="sec-box">Hi, I'm Mani Bro</h1>
+        <h2 id="Fresh" class="sec-box fresh-title">Fresh to the field, fierce with the frontend</h2>
+        <p class="subtitle sec-box" id="subtitle">Junior by title, creator by mindset</p>
+        <div class="disk"><img class="sec-box" src="Assats/shape of the red 3d disk.png" alt="" srcset=""></div>
+        <a href="#" class="btn-primary sec-box" id="btn_primary">View Project</a>
+        <div class="tech-img">
+            <img class="sec-box" src="Assats/techmax.png" alt="" srcset="">
+        </div>
+
+
+    </section>
+    <!-- About Section -->
+    <section class="about-section" id="About">
+        <div class="about-container">
+            <div class="about-text">
+                <div class="about-title animate-on-scroll about-box">
+                    <h2><strong id="AboutMe" class="animate-on-scroll">About Me</strong></h2>
+                    <p id="AboutMeText">
+                        I’m a dedicated developer with a B.Sc. in IT and an MCA,
+                        combining technical knowledge and practical experience to build
+                        efficient, user-friendly applications
+                    </p>
+                </div>
+                <div class="education  about-box ">
+                    <div class="edu-item education-animate">
+                        <img src="Assats/Graduation Scroll.png" alt="MCA" />
+                        <div>
+                            <h4 id="MCA">MASTER OF COMPUTER APPLICATIONS</h4>
+                            <p id="MCA_College">VHNSNC COLLEGE (AUTONOMOUS)</p>
+                            <p id="MCA_Skills">Python, Sql, Android</p>
+                            <p id="MCA_Year">2023–2025</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-item education-animate-Bsc about-box">
+                        <img src="Assats/Graduation Cap.png" alt="BSC" />
+                        <div>
+                            <h4 id="BSC">B.SC INFORMATION TECHNOLOGY</h4>
+                            <p id="BSC_College">SRI KALISWARI COLLEGE (AUTONOMOUS)</p>
+                            <p id="BSC_Skills">Php, Java, WebDevelopment</p>
+                            <p id="BSC_Year">2020–2023</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="div-about">
+
+                ... <!-- About Image -->
+                <div class="about-img  about-box">
+                    <img src="Assats/Profile.png" alt="Profile Image" />
+                </div>
+
+                <div class="download-btn about-box">
+                    <a href="Assats/Mani Selvam.pdf" download="" id="download">Download <span><img
+                                src="Assats/Download.png" alt="" srcset=""></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects-section" id="Projects">
+        <h2 id="Projects-title" class="Projectitle project-box">Things I’ve Built</h2>
+        <div class="project-container ">
+            <div class="project-card">
+                <img src="Assats/watch.png" alt="Watch Project" class="project-img project-box" />
+                <div class="project-info project-box">
+                    <h3 id="WatchManagement_System">Watch Management System</h3>
+                    <p id="WatchManagementSystemText">
+                        A simple and elegant system to manage watch collections, allowing
+                        users to add, edit, and delete watch records.
+                    </p>
+                    <h4 id="WatchManagementSystemTechStack">Tech Stack Used:</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (Vanilla or with DOM manipulation)</li>
+                    </ul>
+                    <div class="buttons">
+                        <a href="" class="btn demo" id="WatchManagementSystemDemo">Live Demo</a>
+                        <a href="#" class="btn code" id="WatchManagementSystemCode">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reverse">
+                <img src="Assats/DeepLearn.png" alt="DeepLearn Project" class="project-img project-box" />
+                <div class="project-info project-box">
+                    <h3 id="DeepLearnWebsite">DeepLearn Website (Learning)</h3>
+                    <p id="DeepLearnWebsiteText">
+                        A modern, user-friendly learning platform designed to deliver
+                        courses, videos, and quizzes with a responsive interface
+                    </p>
+                    <h4 id="DeepLearnWebsiteTechStack">Tech Stack Used:</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (Vanilla or with DOM manipulation)</li>
+                        <li>React</li>
+                    </ul>
+                    <div class="buttons">
+                        <a href="https://mani-selvam.github.io/DeepLearn/" class="btn demo"
+                            id="DeepLearnWebsiteDemo">Live Demo</a>
+                        <a href="#" class="btn code" id="DeepLearnWebsiteCode">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="what-i-do services" id="Services">
+        <h2 id="WhatIDo" class="service">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <img src="Assats/Web.png" alt="Web Development" />
+                <h3 id="WebDevelopment">WebDevelopment</h3>
+                <p id="WebDevelopmentText"> I build responsive, fast-loading, and user-friendly websites using modern
+                    technologies and best
+                    practices.</p>
+            </div>
+
+            <div class="service">
+                <img src="Assats/uiux.png" alt="UI/UX" />
+                <h3 id="ui_ux">Ui/UX</h3>
+                <p id="UiUXText">Every pixel and interaction is thoughtfully crafted to guide users, solve problems, and
+                    elevate your
+                    brand’s identity.</p>
+            </div>
+
+            <div class="service">
+                <img src="Assats/ppt.png" alt="PPT" />
+                <h3 id="PPT">PPT</h3>
+                <p id="PPTText">I craft engaging and visually stunning PowerPoint presentations that enhance
+                    storytelling and deliver
+                    impact.</p>
+            </div>
+
+            <div class="service">
+                <img src="Assats/data.png" alt="Data Analysis" />
+                <h3 id="DataAnalysis">Data Analysis</h3>
+                <p id="DataAnalysisText">I transform raw data into insights that help businesses make smarter decisions.
+                </p>
+            </div>
+
+            <div class="service">
+                <img src="Assats/android.png" alt="Android Development" />
+                <h3 id="Android">Android</h3>
+                <p id="AndroidText">I specialize in Android development, crafting user-friendly mobile applications that
+                    enhance
+                    productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section" id="Contact">
+        <div class="contact-info contact">
+            <h2 id="ContactUs">Contact Us</h2>
+            <p id="ContactText">just a hello — I’m all ears. Contact me anytime!</p>
+            <ul class="contact-list">
+                <li><img src="Assats/Mail.png" alt="Email"> <a
+                        href="mailto:maniselvam2023@gmail.com">maniselvam2023@gmail.com</a>
+                </li>
+                <li><img src="Assats/phone.png" alt="Phone"> <a href="tel:+918825620014">91+ 8825620014</a></li>
+                <li><img src="Assats/in.png" alt="LinkedIn">
+                    <a href="https://www.linkedin.com/in/mani-selvam-85bb31277" target="_blank">
+                        www.linkedin.com/in/mani-selvam-85bb31277
+                    </a>
+                </li>
+
+
+                <li><img src="Assats/github.png" alt="GitHub">
+                    <a href="https://github.com/mani-selvam" target="_blank">
+                        https://github.com/mani-selvam
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-form contact">
+            <form id="contactform">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+    <footer class="footer footer-container">
+        <div class="footer-logo footer-box">
+            <img src="Assats/Maniselvam-Logo.png" alt="Mani Selvam Logo" />
+        </div>
+        <div class="social-icons footer-box">
+            <a href="#"><img src="Assats/instagram.png" alt="Instagram" /></a>
+            <a href="#"><img src="Assats/youtube logo.png" alt="YouTube" /></a>
+            <a href="#"><img src="Assats/facebook.png" alt="Facebook" /></a>
+        </div>
+        <p class="copyright footer-box" id="copyright">
+            © 2025 Mani Selvam. All rights reserved.
+        </p>
+
+    </footer>
+    <script>
+
+    </script>
+    <script src="anime.min.js"></script>
+    <script src="main.js"></script>
+</body>
