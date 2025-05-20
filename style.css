@@ -2164,10 +2164,9 @@ svg {
   }
 
   .project-info p {
-    width: 70%;
-    font-size: 0.8rem;
+    width: 60%;
+    font-size: 0.6rem;
     padding: 1rem;
-    margin-left: -4%;
     text-align: justify;
   }
 
