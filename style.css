@@ -1463,12 +1463,15 @@ svg {
     width: 100%;
     font-size: 0.9rem;
     padding: 1rem;
+    margin-left: -1rem;
   }
 
   .project-info ul li {
     text-align: left;
   }
-
+  .buttons{
+    margin-left: -4rem;
+  }
   #WhatIDo {
     width: 100%;
     margin-top: -5rem;
